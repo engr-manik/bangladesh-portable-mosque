@@ -29,7 +29,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 
 document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.preventDefault();
-  if (OFFICIAL_EMAIL.includes("YOUR-OFFICIAL-EMAIL")) {
+  if (OFFICIAL_EMAIL.includes("bpmcharity@yahoo.com")) {
     alert("Website setup reminder: please add the official email address in script.js before using this form.");
     return;
   }
